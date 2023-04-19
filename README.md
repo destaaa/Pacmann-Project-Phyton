@@ -10,4 +10,4 @@ Membuat sistem kasir self-service dengan fitur :
 5. Customer dapat menghapus beberapa arang yang teah dimasukkan.
 6. Customer dapat melihat total harga dan diskon yang bisa didapat.
 ## Flowchart
-
+![alt text](https://github.com/destaaa/PacmannProject/blob/main/images/Flowchart.png?raw=true)
