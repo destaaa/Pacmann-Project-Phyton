@@ -1,4 +1,4 @@
-# Pacmann Project
+# Self-service Cashier System
 ## Background Project
 Andi merupakan pemilik supermarket besar di salah satu kota di Indonesia. Andi memiliki rencana perbaikan proses bisnis yaitu membuat sistem kasir self-service yang daat memberikan kemudahan kepada para customer sehingga customer dapat dengan mudah langsung memasukkan item yang dibeli, jumlah item, dan fitur-fitur lainnya. 
 ## Objective & Requirements
