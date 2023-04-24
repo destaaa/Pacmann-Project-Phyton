@@ -17,15 +17,37 @@ Sistem kasir pada supermarket Andi dibuat dengan sistem _self-service_, dimana c
 ## Flowchart
 ![alt text](https://github.com/destaaa/PacmannProject/blob/main/images/Flowchart.png?raw=true)
 ### Penjelasan Kode Program
-* `Transaksi` : Class untuk menyimpan seluruh method untuk menjalankan proses transaksi.
-* `add_item()` : Method dari 'class Transaksi' untuk melakukan penambahan nama item, jumlah dan harga ke dalam daftar belanja.
-* `update_item_name()` : Function dari 'class Transaksi' untuk melakukan update/perubahan pada nama item yang telah dimasukkan ke dalam daftar belanja.
-* `update_item_qty()` : Function dari 'class Transaksi' untuk melakukan update/perubahan pada jumlah item yang telah dimasukkan ke dalam daftar belanja.
-* `update_item_price()` : Function dari 'class Transaksi' untuk melakukan update/perubahan pada harga item yang telah dimasukkan ke dalam daftar belanja.
-* `delete_item()` : Function dari 'class Transaksi' untuk menghapus salah satu item besert jumlah dan harganya.
-* `reset_transaction()` : Function dari 'class Transaksi' untuk mereset/mengosongkan daftar belanja.
-* `check_order()` : Function dari 'class Transaksi' untuk menampilkan daftar belanja.
-* `total_purchase()` : Function dari 'class Transaksi' untuk menampilkan total pembelian daftar belanja.
-* `pay_checkout()` : Function dari 'class Transaksi' untuk melakukan pembayaran daftar belanja.
+* `Transaction` : Class untuk menyimpan seluruh method untuk menjalankan proses transaksi.
+* `add_item()` : Method dari 'class Transaction' untuk melakukan penambahan nama item, jumlah dan harga ke dalam daftar belanja.
+* `update_item_name()` : Method dari 'class Transaction' untuk melakukan update/perubahan pada nama item yang telah dimasukkan ke dalam daftar belanja.
+* `update_item_qty()` : Method dari 'class Transaction' untuk melakukan update/perubahan pada jumlah item yang telah dimasukkan ke dalam daftar belanja.
+* `update_item_price()` : Method dari 'class Transaction' untuk melakukan update/perubahan pada harga item yang telah dimasukkan ke dalam daftar belanja.
+* `delete_item()` : Method dari 'class Transaksi' untuk menghapus salah satu item besert jumlah dan harganya.
+* `reset_transaction()` : Method dari 'class Transaction' untuk mereset/mengosongkan daftar belanja.
+* `check_order()` : Method dari 'class Transaction' untuk menampilkan daftar belanja.
+* `total_purchase()` : Method dari 'class Transaction' untuk menampilkan total pembelian daftar belanja.
+* `pay_checkout()` : Method dari 'class Transaction' untuk melakukan pembayaran daftar belanja.
 
 ## Test Case
+### Test Case 1
+Customer ingin menambahkan 2 item baru menggunakan method `add_item()`. Item yang ditambahkan adalah sebagai berikut:
+* Nama item: Ayam goreng, Qty: 2, Harga: 20000
+* Nama item: Pasta gigi, Qty: 3, Harga: 15000
+
+Daftar belanja setelah ditambahkan:
+
+### Test Case 2
+Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer menggunakan method `delete_item()` untuk menghapus item. Item yang ingin dihapus adalah Pasta gigi.
+
+Daftar belanja setelah diperbarui:
+
+### Test Case 3
+Ternyata setelah dipikir-pikir Customer salah memasukkan item yang ingin dibelanjakan. Daripada menghapusnya satu-satu, maka Customer cukup menggunakan method `reset_transaction()` untuk menghapus semua item yang sudah ditambahkan.
+
+Daftar belanja setelah diperbarui:
+
+### Test Case 4
+setelah Customer selesai berbelanja, maka akan menghitung total belanja yang harus dibayarkan menggunakan method `total_purchase'. Sebelum mengeluarkan output total akan menampilkan daftar belanja.
+
+Daftar belanja setelah diperbarui:
+
