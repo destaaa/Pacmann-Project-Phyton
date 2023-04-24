@@ -48,8 +48,7 @@ while True:
     print("5. Hapus produk dari daftar")
     print("6. Cek daftar belanja ")
     print("7. Reset daftar belanja")
-    print("8. Total pembelian")
-    print("9. Pembayaran")
+    print("8. Pembayaran")
     print("0. Keluar\n")
 
     # Memasukkan pilihan menu
@@ -78,10 +77,7 @@ while True:
             trnsct_123.reset_list()
 
         elif choice == 8:
-            trnsct_123.total_purchase()
-
-        elif choice == 9:
-            trnsct_123.pay_checkout()
+            trnsct_123.total_payment()
 
         elif choice == 0:
             print("Terima kasih sudah berbelanja di Supermarket Andi 😊")
