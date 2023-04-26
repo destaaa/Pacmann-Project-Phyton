@@ -13,6 +13,11 @@ ban = ("""
 
 
 """)
+scr = ('''
+            
+===================== DAFTAR BELANJA ANDA=====================
+            
+''')
 
 print(ban)
 
@@ -71,12 +76,24 @@ while True:
             trnsct_123.delete_item()
 
         elif choice == 6:
+            print(f"Nama Customer  :  {customer_name}")
+            print(f"ID transaksi   :  {transaction_id}")
+            print(f"Tanggal        :  {hari_ini}")
+            print(scr)
             trnsct_123.check_order()
 
         elif choice == 7:
+            print(f"Nama Customer  :  {customer_name}")
+            print(f"ID transaksi   :  {transaction_id}")
+            print(f"Tanggal        :  {hari_ini}")
+            print(scr)
             trnsct_123.reset_list()
 
         elif choice == 8:
+            print(f"Nama Customer  :  {customer_name}")
+            print(f"ID transaksi   :  {transaction_id}")
+            print(f"Tanggal        :  {hari_ini}")
+            print(scr)
             trnsct_123.total_payment()
 
         elif choice == 0:
