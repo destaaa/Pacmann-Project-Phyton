@@ -1,4 +1,4 @@
-# _Self-service Cashier System_
+# _Super Cashier System_
 ## Background Project
 Andi merupakan pemilik supermarket besar di salah satu kota di Indonesia. Andi memiliki rencana perbaikan proses bisnis yaitu membuat sistem kasir _self-service_ yang daat memberikan kemudahan kepada para customer termasuk dalam melakukan transaksi jarak jauh. Dengan adanya sistem kasir ini, diharapkan customer dapat dengan mudah memanambahkan produk dalam daftar belanja, melakukan perubahan terhadap daftar belanja dan aktivitas transaksi lainnya melalui sistem kasir yang dibuat
 
