@@ -67,7 +67,7 @@ Daftar belanja setelah diperbarui:
 ![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/reset%20list.png?raw=true)
 
 ### Test Case 4
-setelah Customer selesai berbelanja, maka akan menghitung total belanja yang harus dibayarkan menggunakan method `total_purchase'. Sebelum mengeluarkan output total akan menampilkan daftar belanja.
+setelah Customer selesai berbelanja, maka akan menghitung total belanja yang harus dibayarkan menggunakan method `total_payment()`. Sebelum mengeluarkan output total akan menampilkan daftar belanja.
 Daftar belanja ketika melakukan pembayaran:
 
 ![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/payment.png?raw=true)
