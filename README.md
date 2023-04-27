@@ -73,7 +73,7 @@ Daftar belanja ketika melakukan pembayaran:
 ![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/payment.png?raw=true)
 
 ## Conclusion
-Project python yang diprogram kali ini merupakan sekumpulan kode yang dibuat untuk mengelola proses transaksi pembelian barang dalam sebuah supermarket. Dalam project ini menggunakan class Transaction dengan beberapa methods di dalamnya :`add_item()` , `update_item_name()` , `update_item_qty()` , 'update_item_price()` , `delete_item()` , `reset_transaction()` , 'check_order()` , dan `total_payment()`. Method-method tersebut digunakan untuk mengelola data transaksi yang masuk seperti menambah produk, mengubah data produk, meihat daftar belanja, mereset daftar belanja dan melakukan pembayaran serta menghitung diskon yang didapat.
+Project python yang diprogram kali ini merupakan sekumpulan kode yang dibuat untuk mengelola proses transaksi pembelian barang dalam sebuah supermarket. Dalam project ini menggunakan class Transaction dengan beberapa methods di dalamnya :`add_item()`, `update_item_name()`, `update_item_qty()`, `update_item_price()`, `delete_item()`, `reset_transaction()`, `check_order()`, dan `total_payment()`. Method-method tersebut digunakan untuk mengelola data transaksi yang masuk seperti menambah produk, mengubah data produk, meihat daftar belanja, mereset daftar belanja dan melakukan pembayaran serta menghitung diskon yang didapat.
 
 ## Future Work
 1.  Pengembangan program dengan fungsi yang kompleks seperti adanya pemberitahuan stok tersedia yang ada di swalayan.
