@@ -3,16 +3,16 @@
 Andi merupakan pemilik supermarket besar di salah satu kota di Indonesia. Andi memiliki rencana perbaikan proses bisnis yaitu membuat sistem kasir _self-service_ yang dapat memberikan kemudahan kepada para customer termasuk dalam melakukan transaksi jarak jauh. Dengan adanya sistem kasir ini, diharapkan customer dapat dengan mudah memanambahkan produk dalam daftar belanja, melakukan perubahan terhadap daftar belanja dan aktivitas transaksi lainnya melalui sistem kasir yang dibuat
 
 ## Objective & Requirements
-Sistem kasir pada supermarket Andi dibuat dengan sistem _self-service_, dimana customer dapat melakukan transaksi secara mandiri dengan fitur-fitur sebagai berikut: 
-1. Customer dapat membuat ID transaksi.
-2. Customer dapat memasukkan atau menambahkan barang yang dibeli, jumlah dan harga barang.
-3. Customer dapat melakukan perubahan pada nama produk/item yang telah dimasukkan ke daftar belanja.
-4. Customer dapat melakukan perubahan pada jumlah produk/item yang telah dimasukkan ke daftar belanja.
-5. Customer dapat melakukan perubahan pada harga produk/item yang telah dimasukkan ke daftar belanja.
-6. Customer dapat menghapus nama produk/item yang telah dimasukkan ke daftar belanja.
-7. Customer dapat melihat daftar belanja yang dibuat.
-8. Customer dapat mereset daftar belanja.
-9. Customer dapat melakukan pembayaran atas pembelian.
+### Objective
+Membuat sistem kasir berbasis _self-service_  pada supermarket Andi untuk mempermudah Customer dalam melakukan proses transaksi belanja secara mandiri melalui aplikasi yang telah disediakan.
+### Requirements
+Fitur-fitur yang terdapat pada sistem kasi _self-service_ diantaranya:
+1. Membuat ID transaksi Customer.
+2. Melakukan input nama produk, jumlah produk, dan harga produk.
+3. Melakukan update apabila terjai kesalahan saat memasukan input data.
+4. Melakukan pembatalan/reset transaksi belanja 
+5. Melakukan pengecekan terhadap daftar belanja.
+6. Melakukan pembayaran atas transaksi belanja.
 
 ## Flowchart
 ![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/flowchart.png?raw=true)
