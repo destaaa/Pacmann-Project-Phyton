@@ -1,15 +1,15 @@
 # _Super Cashier System_
 ## Background Project
-Andi merupakan pemilik supermarket besar di salah satu kota di Indonesia. Andi memiliki rencana perbaikan proses bisnis yaitu membuat sistem kasir _self-service_ yang dapat memberikan kemudahan kepada para customer termasuk dalam melakukan transaksi jarak jauh. Dengan adanya sistem kasir ini, diharapkan customer dapat dengan mudah menambahkan produk dalam daftar belanja, melakukan perubahan terhadap daftar belanja dan aktivitas transaksi lainnya melalui sistem kasir yang dibuat
+Andi merupakan pemilik supermarket besar di salah satu kota di Indonesia. Andi memiliki rencana perbaikan proses bisnis yaitu membuat sistem kasir _self-service_ yang dapat memberikan kemudahan kepada para customer termasuk dalam melakukan transaksi jarak jauh. Dengan adanya sistem kasir ini, diharapkan customer dapat dengan mudah menambahkan produk dalam daftar belanja, melakukan perubahan dan aktivitas transaksi lainnya melalui sistem kasir yang telah dibuat.
 
 ## Objective & Requirements
 ### Objective
 Membuat sistem kasir berbasis _self-service_  pada supermarket Andi untuk mempermudah Customer dalam melakukan proses transaksi belanja secara mandiri melalui aplikasi yang telah disediakan.
 ### Requirements
-Fitur-fitur yang terdapat pada sistem kasi _self-service_ diantaranya:
+Fitur-fitur yang terdapat pada sistem kasir _self-service_ diantaranya:
 1. Membuat ID transaksi Customer.
 2. Melakukan input nama produk, jumlah produk, dan harga produk.
-3. Melakukan update apabila terjai kesalahan saat memasukan input data.
+3. Melakukan update apabila terjadi kesalahan saat memasukkan input data.
 4. Melakukan pembatalan/reset transaksi belanja 
 5. Melakukan pengecekan terhadap daftar belanja.
 6. Melakukan pembayaran atas transaksi belanja.
@@ -22,7 +22,7 @@ Fitur-fitur yang terdapat pada sistem kasi _self-service_ diantaranya:
 * `update_item_name()` : Method dari class Transaction untuk melakukan update/perubahan pada nama item yang telah dimasukkan ke dalam daftar belanja.
 * `update_item_qty()` : Method dari class Transaction untuk melakukan update/perubahan pada jumlah item yang telah dimasukkan ke dalam daftar belanja.
 * `update_item_price()` : Method dari class Transaction untuk melakukan update/perubahan pada harga item yang telah dimasukkan ke dalam daftar belanja.
-* `delete_item()` : Method dari class Transaksi untuk menghapus salah satu item besert jumlah dan harganya.
+* `delete_item()` : Method dari class Transaksi untuk menghapus salah satu item beserta jumlah dan harganya.
 * `reset_transaction()` : Method dari class Transaction untuk mereset/mengosongkan daftar belanja.
 * `check_order()` : Method dari class Transaction untuk menampilkan daftar belanja.
 * `total_payment()` : Method dari class Transaction untuk menampilkan total pembelian daftar belanja.
@@ -52,7 +52,7 @@ Daftar belanja setelah ditambahkan:
 ![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/list1.png?raw=true)
 
 ### Test Case 2
-Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer menggunakan method `delete_item()` untuk menghapus item. Item yang ingin dihapus adalah Pasta gigi.
+Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer dapat menggunakan method `delete_item()` untuk menghapus item yang dipilih. Item yang ingin dihapus adalah Pasta gigi.
 
 ![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/delete%20item.png?raw=true)
 
@@ -61,13 +61,13 @@ Daftar belanja setelah item dihapus:
 ![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/list2.png?raw=true)
 
 ### Test Case 3
-Ternyata setelah dipikir-pikir Customer salah memasukkan item yang ingin dibelanjakan. Daripada menghapusnya satu-satu, maka Customer cukup menggunakan method `reset_transaction()` untuk menghapus semua item yang sudah ditambahkan.
+Ternyata setelah dipikir-pikir, Customer salah memasukkan item yang ingin dibelanjakan. Daripada menghapusnya satu-satu, maka Customer cukup menggunakan method `reset_transaction()` untuk menghapus semua item yang sudah ditambahkan.
 Daftar belanja setelah diperbarui:
 
 ![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/reset%20list.png?raw=true)
 
 ### Test Case 4
-setelah Customer selesai berbelanja, maka akan menghitung total belanja yang harus dibayarkan menggunakan method `total_payment()`. Sebelum mengeluarkan output total akan menampilkan daftar belanja.
+setelah Customer selesai berbelanja, maka sistem akan menghitung total belanja yang harus dibayarkan menggunakan method `total_payment()`. Sebelum mengeluarkan output total akan menampilkan daftar belanja.
 Daftar belanja ketika melakukan pembayaran:
 
 ![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/payment.png?raw=true)
