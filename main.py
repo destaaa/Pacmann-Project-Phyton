@@ -87,7 +87,7 @@ while True:
             print(f"ID transaksi   :  {transaction_id}")
             print(f"Tanggal        :  {hari_ini}")
             print(scr)
-            trnsct_123.reset_list()
+            trnsct_123.reset_transaction()
 
         elif choice == 8:
             print(f"Nama Customer  :  {customer_name}")
