@@ -127,7 +127,7 @@ class Transaction:
             print(f"Total belanja Anda: {total_purchase}")
 
     # Mereset daftar transaksi
-    def reset_list(self):
+    def reset_transaction(self):
         '''
         Fungsi ini digunakan untuk mereset/menghapus seluruh daftar belanja
         '''
