@@ -11,10 +11,11 @@ class Transaction:
     # Menginisialisasi dictionary
     def __init__(self):
         '''
-        Fungsi ini digunakan untuk menginisialisasi data_item sebagai dictionary yang akan menampung key_value yang meupakan daftar belanja
+        Fungsi ini digunakan untuk menginisialisasi data_item sebagai dictionary yang akan menampung key_value yang merupakan daftar belanja
         '''
         self.data_item = dict()
         self.payment = 0
+
 
     # Menambahkan item produk
     def add_item(self):
