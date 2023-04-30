@@ -44,8 +44,8 @@ Customer ingin menambahkan 2 item baru menggunakan method `add_item()`. Item yan
 * Nama item: Ayam goreng, Qty: 2, Harga: 20000
 * Nama item: Pasta gigi, Qty: 3, Harga: 15000
 
-![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/Add%20item1.png?raw=true)
-![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/Add%20item2.png?raw=true)
+![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/Add1.png?raw=true)
+![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/Add2.png?raw=true)
 
 Daftar belanja setelah ditambahkan:
 
@@ -54,7 +54,7 @@ Daftar belanja setelah ditambahkan:
 ### Test Case 2
 Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer dapat menggunakan method `delete_item()` untuk menghapus item yang dipilih. Item yang ingin dihapus adalah Pasta gigi.
 
-![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/delete%20item.png?raw=true)
+![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/delete.png?raw=true)
 
 Daftar belanja setelah item dihapus:
 
@@ -64,13 +64,13 @@ Daftar belanja setelah item dihapus:
 Ternyata setelah dipikir-pikir, Customer salah memasukkan item yang ingin dibelanjakan. Daripada menghapusnya satu-satu, maka Customer cukup menggunakan method `reset_transaction()` untuk menghapus semua item yang sudah ditambahkan.
 Daftar belanja setelah diperbarui:
 
-![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/reset%20list.png?raw=true)
+![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/reset.png?raw=true)
 
 ### Test Case 4
 setelah Customer selesai berbelanja, maka sistem akan menghitung total belanja yang harus dibayarkan menggunakan method `total_payment()`. Sebelum mengeluarkan output total akan menampilkan daftar belanja.
 Daftar belanja ketika melakukan pembayaran:
 
-![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/payment.png?raw=true)
+![alt text](https://github.com/destaaa/Pacmann-Project-Phyton/blob/main/Saved%20Pictures/list3.png?raw=true)
 
 ## Conclusion
 Project python yang diprogram kali ini merupakan sekumpulan kode yang dibuat untuk mengelola proses transaksi pembelian barang dalam sebuah supermarket. Dalam project ini menggunakan class Transaction dengan beberapa methods di dalamnya :`add_item()`, `update_item_name()`, `update_item_qty()`, `update_item_price()`, `delete_item()`, `reset_transaction()`, `check_order()`, dan `total_payment()`. Method-method tersebut digunakan untuk mengelola data transaksi yang masuk seperti menambah produk, mengubah data produk, meihat daftar belanja, mereset daftar belanja dan melakukan pembayaran serta menghitung diskon yang didapat.
